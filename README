@@ -8,3 +8,11 @@ Please direct questions, suggestions, and bug reports to sar@apuebook.com.
 
 Steve Rago
 January 2013
+
+
+## 说明
+1. 根据系统，调整 `Make.defines.xxx` 为  `Make.defines.`
+> 例如： `Make.defines.macos` 为 `Make.defines.`
+2. chmod +x systype.sh
+2. chmod +x advio/fixup.awk
+
